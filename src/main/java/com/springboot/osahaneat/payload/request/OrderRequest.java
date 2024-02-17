@@ -10,7 +10,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OrderRequest {
-    private int user_id;
-    private int restaurant_id;
-    private int[] food_id;
+    private int userId;
+    private int restaurantId;
+    private int[] foodIds;
 }
